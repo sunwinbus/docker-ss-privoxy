@@ -11,6 +11,7 @@ ENV SERVER_PORT 8388
 ENV PASSWORD=
 ENV METHOD aes-256-gcm
 ENV TIMEOUT 300
+ENV DNS_ADDRS 8.8.8.8,8.8.4.4
 ENV LISTEN_ADDR 127.0.0.1
 ENV SS_ARGS=
 
@@ -40,6 +41,7 @@ RUN set -ex \
  && apk add --no-cache \
       ca-certificates \
       rng-tools \
+      tzdata \
       $(scanelf --needed --nobanner /usr/bin/ss-* \
       | awk '{ gsub(/,/, "\nso:", $2); print "so:" $2 }' \
       | sort -u) \
