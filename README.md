@@ -8,6 +8,7 @@
 - `METHOD` 加密方式
 - `TIMEOUT` 超时时长
 - `LISTEN_ADDR` 监听 IP，默认监听 `1080` 端口
+- `DNS_ADDRS` DNS服务器，默认 `8.8.8.8,8.8.4,4`
 - `SS_ARGS` 其他可选参数
 
 ## Privoxy 配置
