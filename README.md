@@ -28,6 +28,7 @@ docker run -d --name ss-privoxy \
   -e PASSWORD={YOUR PASSWORD} \
   -e METHOD=aes-256-gcm \
   -e TIMEOUT=300 \
+  -e DNS_ADDRS={DNS SERVER IP} \
   -e LISTEN_ADDR=127.0.0.1 \
   -e ARGS=-v \
   antileech/ss-privoxy
