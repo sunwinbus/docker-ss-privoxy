@@ -1,5 +1,5 @@
 # ss-privoxy
-[shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev) v3.3.3 + [privoxy](https://www.privoxy.org/) + [gfwlist](https://github.com/gfwlist/gfwlist)
+[shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev) v3.3.4 + [privoxy](https://www.privoxy.org/) + [gfwlist](https://github.com/gfwlist/gfwlist)
 
 ## Shadowsocks 启动参数
 - `SERVER_ADDR` 服务器地址
